@@ -1,0 +1,40 @@
+{
+  "name": "job-board",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.577.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.1",
+    "@radix-ui/themes": "^3.0.5",
+    "@workos-inc/authkit-nextjs": "^0.5.3",
+    "@workos-inc/node": "^7.4.0",
+    "axios": "^1.6.8",
+    "mongoose": "^8.4.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-country-state-city": "^1.1.0",
+    "react-dom": "^18",
+    "react-timeago": "^7.2.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.5"
+  }
+}
